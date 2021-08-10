@@ -1,0 +1,33 @@
+{
+  "name": "countdown-clock",
+  "version": "1.0.0",
+  "description": "A clocks that counts down in the terminal",
+  "main": "countdown.js",
+  "bin": {
+    "countdown": "./npm/countdown.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChunYoung0518/nodejs-webserver.git"
+  },
+  "keywords": [
+    "clock",
+    "countdown",
+    "timer"
+  ],
+  "author": "Daniel Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChunYoung0518/nodejs-webserver/issues"
+  },
+  "homepage": "https://github.com/ChunYoung0518/nodejs-webserver#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "single-line-log": "^1.1.2",
+    "tiny-timer": "^1.6.0",
+    "vtop": "^0.6.1"
+  }
+}
