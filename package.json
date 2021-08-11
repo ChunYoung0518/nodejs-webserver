@@ -7,7 +7,7 @@
     "countdown": "./npm/countdown.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -35,5 +35,9 @@
     "tiny-timer": "^1.6.0",
     "vtop": "^0.6.1",
     "ws": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.4"
   }
 }
