@@ -25,7 +25,10 @@
   },
   "homepage": "https://github.com/ChunYoung0518/nodejs-webserver#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "minimist": "^1.2.5",
+    "serve": "^12.0.0",
     "single-line-log": "^1.1.2",
     "tiny-timer": "^1.6.0",
     "vtop": "^0.6.1"
