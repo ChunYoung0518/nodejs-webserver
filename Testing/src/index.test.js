@@ -1,5 +1,6 @@
-const appMock = require("./app");
-require("./index.js");
+import appMock from "./app";
+import "./index.js";
+
 
 jest.mock("./app");
 

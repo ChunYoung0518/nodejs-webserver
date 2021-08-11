@@ -1,7 +1,7 @@
-const request = require("supertest");
-const express = require("express");
-const { save } = require("./lib");
-const dictionaryRoutes = require("./dictionary-routes");
+import request from "supertest";
+import express from "express";
+import { save } from "./lib";
+import dictionaryRoutes from "./dictionary-routes";
 
 
 jest.mock("./lib", () => ({

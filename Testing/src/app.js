@@ -1,7 +1,7 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const {logger} = require("./lib");
-const dictionaryRountes = require("./dictionary-routes");
+import express from "express";
+import bodyParser from "body-parser";
+import {logger} from "./lib";
+import dictionaryRountes from "./dictionary-routes";
 
 const app = express();
 
@@ -16,4 +16,5 @@ app.use("/dictionary", dictionaryRountes);
 //end of middleware
 
 
-module.exports = app;
+// module.exports = app;
+export default app;
